@@ -1,6 +1,6 @@
 {
-  "name": "gitcv-types",
-  "version": "1.0.0",
+  "name": "@gitcv/types",
+  "version": "0.0.1",
   "description": "gitcv.io types and interfaces",
   "main": "",
   "types": "index.d.ts",
