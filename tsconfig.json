@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "module": "commonjs",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "baseUrl": "./",
+    "declaration": false,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": false
+  },
+  "include": ["**/*.d.ts"]
+}
