@@ -8,6 +8,9 @@
   "author": "Iakov Salikov",
   "license": "MIT",
   "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "lint": "eslint ./ --ext .ts",
     "build": "tsc",
