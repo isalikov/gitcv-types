@@ -1,6 +1,7 @@
-export type User = {
-    uuid: string;
-    name: string;
-};
+import { THEME } from './literals';
 
-export type CreateUser = Omit<User, 'uuid'>;
+export type User = {
+    githubID: string;
+    theme: THEME;
+    uuid: string;
+};
